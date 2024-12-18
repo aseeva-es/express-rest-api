@@ -4,6 +4,8 @@
   "description": "\"A full-stack application demonstrating the software development lifecycle with React, Node.js, Express, SQLite3, Docker, and CI/CD using GitHub Actions, deployed on Render.\"",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
     "test": "echo \\\"Error: no test specified\\\" && exit 1"
   },
   "keywords": [
